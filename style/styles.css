@@ -40,3 +40,7 @@ footer {
   border-radius: 0.5em;
   margin: 0 auto;
 }
+
+#lastupdate {
+    color:lightcoral;
+}
