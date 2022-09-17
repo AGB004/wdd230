@@ -1,10 +1,20 @@
 header {
+    display: grid;
     text-align: center;
     padding: 2rem;
+    max-width: 450px;
+    background-color: #0f52ba;
+    grid-template-columns: 300px 110px;
+    grid-gap: 1em;
+    align-items: center;
+    border-radius: 1em;
+    
 }
 
 img.profile {
-    max-width: 100px;
+    max-width: 150px;
+    grid-column: 1 / 2; /* the -1 is just a fancy way to say "span all the columns" */
+    grid-row: 1;
 }
 
 body {
@@ -14,6 +24,5 @@ body {
 }
 
 footer {
-    text-align: center;
     padding: 1rem;
 }
