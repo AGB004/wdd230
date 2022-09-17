@@ -1,14 +1,15 @@
 html {
     background-color: #42bb56;
 }
+
 header {
-    display: grid;
     text-align: center;
     padding: 1rem;
     max-width: 500px;
     background-color: #1d75bd;
     align-items: center;
     border-radius: 1em;
+    margin: 0 auto;
 }
 
 img {
@@ -19,9 +20,11 @@ body {
     max-width: 960px;   
     margin: 0 auto;
     padding: 1em;
+    background-color: #BECCBBCE;
 }
 
 footer {
     padding: 1em;
     text-align: center;
+    background-color: #1d75bd;
 }
