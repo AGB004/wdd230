@@ -1,6 +1,6 @@
 let lastupdate = document.querySelector("#lastupdate");
 
-let options = {
+const options = {
     weekday: "long",
     day: "numeric",
     month: "long",
