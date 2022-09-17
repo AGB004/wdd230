@@ -4,8 +4,6 @@ header {
     padding: 1rem;
     max-width: 500px;
     background-color: #1d75bd;
-    grid-template-columns: 300px 110px;
-    grid-gap: 1em;
     align-items: center;
     border-radius: 1em;
 }
