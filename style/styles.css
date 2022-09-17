@@ -1,3 +1,6 @@
+html {
+    background-color: #42bb56;
+}
 header {
     display: grid;
     text-align: center;
@@ -20,4 +23,5 @@ body {
 
 footer {
     padding: 1em;
+    text-align: center;
 }
