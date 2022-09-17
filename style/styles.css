@@ -3,14 +3,14 @@ header {
     text-align: center;
     padding: 1rem;
     max-width: 500px;
-    background-color: rgb(61, 112, 189);
+    background-color: #1d75bd;
     grid-template-columns: 300px 110px;
     grid-gap: 1em;
     align-items: center;
     border-radius: 1em;
 }
 
-img.profile {
+img {
     max-width: 150px;
     border-radius: .75em;
 }
