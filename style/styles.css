@@ -1,30 +1,41 @@
-html {
-    background-color: #42bb56;
-}
-
 header {
+    display: grid;
+    grid-template-columns: 300px auto;
+    align-items: center;
+    padding: .5em;
     text-align: center;
-    padding: 1rem;
-    max-width: 500px;
+    max-width: 600px;
     background-color: #1d75bd;
     align-items: center;
-    border-radius: 1em;
+    border-radius: .5em;
     margin: 0 auto;
 }
 
 img {
-    border-radius: .75em;
+    max-width: 150px;
+    border-radius: .5em;
+}
+
+main{
+    padding: .5em;
+    margin: 0 auto;
+    text-align: center;
+}
+nav ul {
+    list-style: none; /* removes the bullets! */
 }
 
 body {
     max-width: 960px;   
     margin: 0 auto;
     padding: 1em;
-    background-color: #BECCBBCE;
 }
 
 footer {
     padding: 1em;
     text-align: center;
     background-color: #1d75bd;
+    max-width: 600px;
+    border-radius: .5em;
+    margin: 0 auto;
 }
