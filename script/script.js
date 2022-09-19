@@ -8,7 +8,7 @@ const options = {
 };
 
 // document.getElementById("lastupdate").textContent = new Date().toLocaleDateString("en-US, options");
-// lastupdate.textContent = new Date().toLocaleDateString("en-US, options");
+lastupdate.textContent = new Date().toLocaleDateString("en-US, options");
 
 // Long hand method ... building day and month names from built-in date methods.
 
