@@ -40,4 +40,4 @@ const dayName = daynames[d.getDay()];
 const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
-lastupdate.textContent = fulldate;
+// lastupdate.textContent = fulldate;
