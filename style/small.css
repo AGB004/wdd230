@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+font-family: 'Inter', sans-serif;
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+font-family: 'Lato', sans-serif;
+
+header {
+  display: grid;
+  grid-template-columns: 300px auto;
+  align-items: center;
+  padding: 0.5em;
+  text-align: center;
+  max-width: 600px;
+  background-color: #4999da; /* #1d75bd */
+  align-items: center;
+  border-radius: 0.5em;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Inter", "Lato", sans-serif;
+}
+
+img {
+  max-width: 150px;
+  border-radius: 0.5em;
+}
+
+main {
+  padding: 0.5em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none; /* removes the bullets! */
+}
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+footer {
+  padding: 1em;
+  text-align: center;
+  background-color: #6bb9f8;
+  max-width: 600px;
+  border-radius: 0.5em;
+  margin: 0 auto;
+}
+
+span {
+  color: #7bf170;
+  font-weight: 700;
+}
