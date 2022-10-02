@@ -1,6 +1,36 @@
-
+header, footer {
+	background-color: #4999da;
+	border-radius: .5em;
+}
 
 body {
 	font-size: 18px;
 	font-family: "Sansita", Ubuntu, sans-serif;
+	display: grid;
+	grid-gap: 1em;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
 }
+
+main {
+	max-width: 750px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+	
+}
+
+section h3 {
+	border-radius: 1em, 1em, 0, 0;
+	background-color: #4999da;
+}
+section {
+	background-color: azure;
+	text-align: left;
+	border-radius: 1em;
+	align-items: center;
+	justify-content: center;
+}
+
