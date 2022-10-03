@@ -11,10 +11,11 @@ body {
 	text-align: center;
 	align-items: center;
 	justify-content: center;
+	padding: 1em;
 }
 
 main {
-	max-width: 750px;
+	max-width: 960px;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr;
@@ -48,3 +49,8 @@ section {
 section a, p {
 	font-size: 20px;
 }
+
+span {
+	color: #7bf170;
+	font-weight: 700;
+  }
