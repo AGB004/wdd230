@@ -18,14 +18,19 @@ h3 {
   font-family: "Inter", "Lato", sans-serif;
 }
 
+nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 nav ul {
   list-style: none; /* removes the bullets! */
-  display: flex;
   background-color: #a8a8a8;
-  padding: 1em;
+  padding: .5em;
   margin: 0;
-  text-align: center;
   border-radius: 0 0 0.5em 0.5em;
+	overflow: hidden;
 }
 
 nav ul li {
@@ -36,7 +41,7 @@ nav ul li a {
   display: block;
   color: azure;
   text-align: center;
-  padding: 0.75rem;
+  padding: 0.25rem;
   text-decoration: none;
   font-size: 25px;
   background: linear-gradient(90deg, transparent, #4999da, transparent) bottom /
@@ -55,7 +60,7 @@ img {
 }
 
 main {
-  padding: 0;
+  padding: 1em;
   margin: 0 auto;
   text-align: center;
   max-width: 600px;
@@ -104,7 +109,7 @@ align-items: center;
 }
 
 footer {
-  padding: 1em;
+  padding: .5em;
   text-align: center;
   background-color: #4999da;
   max-width: 960px;
