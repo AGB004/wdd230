@@ -10,4 +10,8 @@
 	section a, p {
 		font-size: 16px;
 	}
+
+	.section_3 img {
+		padding: 1em;
+	}
 }

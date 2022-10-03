@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 35.5em) {
     main {
 		grid-template-columns: 1fr 1fr;
 	}
@@ -11,5 +11,9 @@
 
 	section a, p {
 		font-size: 18px;
+	}
+
+	.section_3 img {
+		padding: 1em 3em 1em 3em
 	}
 }

@@ -25,10 +25,11 @@ main {
 main img {
 	display: block;
     width: 90%;
+	margin: 0;
 }
 
 section h2, a, img, p {
-    margin: 0px;
+    margin: 0;
     padding: 1em;
 }
 
