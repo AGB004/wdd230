@@ -14,7 +14,7 @@ font-family: 'Lato', sans-serif; */
 
 header {
   display: grid;
-  grid-template-columns: 300px auto;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   padding: 0.5em;
   text-align: center;
