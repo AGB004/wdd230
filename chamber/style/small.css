@@ -1,0 +1,46 @@
+body {
+  padding: 1em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #a8a8a8b0;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none; /* removes the bullets! */
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  flex: 1 1 auto;
+}
+
+main {
+  padding: 2em;
+  background-color: #eee;
+}
+
+img {
+  border-radius: 2em;
+}
+
+footer {
+  background-color: #a8a8a8b0;
+  display: flex;
+}
+
+span {
+  color: #64a7ff;
+  font-weight: 700;
+}
