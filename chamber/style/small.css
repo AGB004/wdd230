@@ -151,6 +151,10 @@ footer h1, footer h2 {
   margin: 0;
 }
 
+div.footer_right a {
+ text-decoration: none;
+}
+
 span {
   color: #64a7ff;
   font-weight: 700;
