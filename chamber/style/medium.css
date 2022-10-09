@@ -1,19 +1,30 @@
 @media only screen and (min-width: 35.5em) {
-    footer {
-        grid-template-columns: 1fr 1fr;
-        justify-content: none;
-      }
-      
-      .footer_left {
-        grid-column: 1/2;
-      }
-      
-      .footer_right {
-        grid-column: 2/3;
-      }
-      
-      .footer_bottom {
-        grid-column: 1/3;
-        text-align: none;
-      }
+  header {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .current_date {
+    grid-column: 1/3;
+  }
+
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  footer {
+    grid-template-columns: 1fr 1fr;
+    justify-content: none;
+  }
+
+  .footer_left {
+    grid-column: 1/2;
+  }
+
+  .footer_right {
+    grid-column: 2/3;
+  }
+
+  .footer_bottom {
+    grid-column: 1/3;
+  }
 }
