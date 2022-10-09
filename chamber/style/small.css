@@ -37,7 +37,20 @@ img {
 
 footer {
   background-color: #a8a8a8b0;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+
+.footer_left {
+  grid-column: 1/2;
+}
+
+.footer_right {
+  grid-column: 2/3;
+}
+
+.footer_bottom {
+  grid-column: span 2;
 }
 
 span {
