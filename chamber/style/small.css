@@ -6,8 +6,7 @@ body {
 
 header {
   background-color: #a8a8a8b0;
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
   padding: 20px;
   margin: 0;
 }
@@ -64,13 +63,8 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
-  justify-content: center;
   padding: 20px;
   margin: 0;
-}
-
-.footer_bottom {
-  text-align: center;
 }
 
 span {

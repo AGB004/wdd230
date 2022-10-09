@@ -1,5 +1,23 @@
 @media only screen and (min-width: 60em) {
-  main {
+    nav button {
+        display: none;
+    }
+
+    #primaryNav {
+        display: flex;
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0,0,0,0.3);
+    }
+
+    li {
+        flex: 1 1 auto;
+    }
+
+    nav ul li a {
+        border-right: 1px solid rgba(0,0,0,0.3);
+    }
+  
+    main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 8px;
   }

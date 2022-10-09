@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .current_date {
+  div.current_date {
     grid-column: 1/3;
   }
 
@@ -48,18 +48,19 @@
 
   footer {
     grid-template-columns: 1fr 1fr;
-    justify-content: none;
   }
 
-  .footer_left {
+  div.footer_left {
     grid-column: 1/2;
   }
 
-  .footer_right {
+  div.footer_right {
     grid-column: 2/3;
+    align-items: center;
+    justify-content: center;
   }
 
-  .footer_bottom {
+  p.footer_bottom {
     grid-column: 1/3;
   }
 }
