@@ -47,6 +47,14 @@ section {
   border: 1px solid rgba(0,0,0,0.3);
 }
 
+section:nth-child(5) {
+  display: none;
+}
+
+div section:nth-child(3) {
+  display: none;
+}
+
 img {
   border-radius: 2em;
 }
