@@ -36,13 +36,14 @@
     grid-row: 4/5;
   }
 
-  div.spotlights {
-    grid-column: 1/3;
+  section:nth-child(6) {
+    grid-column: 1/2;
     grid-row: 3/4;
   }
-  
-  .spotlights {
-    display: flex;
+
+  sections:nth-child(7) {
+    grid-column: 2/3;
+    grid-row: 3/4;
   }
 
   footer {

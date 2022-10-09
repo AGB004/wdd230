@@ -30,3 +30,12 @@ const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.getElementById("current_date").textContent = fulldate;
 document.getElementById('year').textContent = new Date().getFullYear();
 document.getElementById('lastupdate').textContent = document.lastModified;
+
+function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("open");
+    document.getElementById("hamburgerBtn").classList.toggle("open");
+}
+
+const x = document.getElementById("hamburgerBtn");
+
+x.onclick = toggleMenu;
