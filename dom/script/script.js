@@ -12,7 +12,7 @@ button.addEventListener("click", function() {
     } 
     //  and if not, do the following:
     else {
-        // return placeholder to original
+        // return placeholder to the original
         document.getElementById("favchap").placeholder = "Alma 5";
 
         // a. b. Create three variables that hold references to create li, button, and p elements using const.
