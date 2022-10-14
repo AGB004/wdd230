@@ -1,12 +1,12 @@
 // Create three variables that hold references to the input, button, and list elements using const.
-const input = document.querySelector("ul");
-const button = document.querySelector("input");
-const list = document.querySelector("button");
+const input = document.querySelector("input");
+const button = document.querySelector("button");
+const list = document.querySelector("ul");
 
 
 button.addEventListener("click", function() {
     if (input.value.length === 0) {
-        alert("Please add a chapter of the Book of Mormon");
+        document.getElementById("favchap").placeholder = "Please insert text, EX: Alma 5";
     } 
     
     else {
