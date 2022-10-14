@@ -10,7 +10,8 @@ button.addEventListener("click", function() {
     } 
     
     else {
-        
+        document.getElementById("favchap").placeholder = "Alma 5";
+
         const listItem = document.createElement("li");
         const listText = document.createElement("span");
         const listBtn = document.createElement("button");
