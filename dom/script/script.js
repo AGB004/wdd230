@@ -17,7 +17,7 @@ button.addEventListener("click", function() {
 
         // a. b. Create three variables that hold references to create li, button, and span elements using const.
         const list_item = document.createElement("li");
-        const input_text = document.createElement("span");
+        const input_text = document.createElement("p");
         const delete_button = document.createElement("button");
 
         // c. populate the li elements textContent or innerHTML with the input
