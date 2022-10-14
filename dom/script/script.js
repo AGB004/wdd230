@@ -15,7 +15,7 @@ button.addEventListener("click", function() {
         // return placeholder to original
         document.getElementById("favchap").placeholder = "Alma 5";
 
-        // a. b. Create three variables that hold references to create li, button, and span elements using const.
+        // a. b. Create three variables that hold references to create li, button, and p elements using const.
         const list_item = document.createElement("li");
         const input_text = document.createElement("p");
         const delete_button = document.createElement("button");
