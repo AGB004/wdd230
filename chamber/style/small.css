@@ -70,8 +70,7 @@ nav ul li a {
   display: block;
   padding: .8rem 2vw;
   text-decoration: none;
-  color: #333;
-  border-top: 1px solid rgba(0,0,0,0.5);
+  color: rgb(51, 51, 51);
 }
 
 nav ul li.active a {
@@ -107,11 +106,19 @@ div.social_media a {
 }
 
 div.current_date {
+  background-color: rgba(85, 85, 85, .75);
   display: flex;
   text-align: center;
   justify-content: center;
   padding: 10px;
   margin-top: 10px;
+}
+
+div.main_div {
+  padding: 10px;
+  height: auto;
+  border: 1px solid rgba(0,0,0,0.3);
+  text-align: center;
 }
 
 main {
@@ -122,17 +129,72 @@ main {
   background-color: #eee;
 }
 
-section {
-  padding: 5px;
-  height: 100px;
+div.main_div button {
+  background-color: rgb(245, 245, 245);
   border: 1px solid rgba(0,0,0,0.3);
+  padding: 10px 8px 10px 10px;;
+  border-radius: .5em;
 }
 
-section:nth-child(5) {
+div.main_div button:hover {
+  background-color: white;
+  border: 1px solid rgba(0,0,0,0.5);
+}
+
+div.hero_div {
+  position: relative;
+  padding: 0;
+}
+
+.hero_welcome {
+  background-color: white;
+  border: 1px solid rgba(0,0,0,0.5);
+  border-radius: .5em;
+  padding: 10px;
+  position: absolute;
+  top: .5em;
+  left: .5em;
+  display: flex;
+  align-items: center;
+}
+
+div.hero_div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+button.hero_button {
+  position: absolute;
+  bottom: .5em;
+  right: .5em;
+  display: flex;
+  align-items: center;
+}
+
+button.hero_button img{
+  width: 30px; 
+  height: 30px;
+  padding: 0 0 0 10px;
+}
+
+div.join {
   display: none;
+  align-items: center;
 }
 
-section:nth-child(8) {
+.join_button {
+  width: 95%;
+}
+
+div.spotlight_div_box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-flow: row;
+  gap: 10px;
+}
+
+div.spotlight3 {
   display: none;
 }
 
@@ -154,6 +216,11 @@ footer h1, footer h2 {
 
 div.footer_right a {
  text-decoration: none;
+}
+
+.footer_bottom {
+  background-color: rgba(85, 85, 85, .75);
+  padding: 10px;
 }
 
 span {
