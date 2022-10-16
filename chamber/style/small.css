@@ -178,9 +178,15 @@ button.hero_button img{
   padding: 0 0 0 10px;
 }
 
+.event img, .weather img, .news img {
+  border-radius: .75em;
+  padding-bottom: 10px;
+}
+
 div.join {
   display: none;
   align-items: center;
+  justify-items: center;
 }
 
 .join_button {
