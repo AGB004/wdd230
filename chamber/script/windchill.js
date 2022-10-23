@@ -4,7 +4,9 @@ const windspeed_kmph = 2;
 document.getElementById('degrees').textContent = temp_celsius;
 document.getElementById('windSpeed').textContent = windspeed_kmph;
 
+let temp_c = (temp_f - 32) * (9/5);
 const temp_f = temp_celsius * (9/5) + 32;
+let kmph = mph * 1.609
 const windspeed_mph = windspeed_kmph / 1.609;
 
 // temp can't got above 50°F and 10°C / wind speed must be greater than 3mph and 4.83kmph
