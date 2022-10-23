@@ -1,5 +1,16 @@
 @media only screen and (min-width: 35.5em) {
   
+  div.header_content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  div.header_logo_box {
+    display: flex;
+  }
+
+  div.header_right_content {
+    grid-template-columns: 1fr 1fr;
+  }
 
   div.current_date {
     grid-column: 1/3;
@@ -13,6 +24,10 @@
   div.hero_div {
     grid-column: 1/3;
     grid-row: 1/2;
+  }
+
+  .hero_welcome {
+    font-size: 25px;
   }
   
   .hero_button {

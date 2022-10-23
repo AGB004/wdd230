@@ -1,28 +1,36 @@
 @media only screen and (min-width: 60em) {
   div.header_right_content {
-      flex-flow: row;
-    }
-  
+    flex-flow: row;
+  }
+
+  nav {
+    grid-column: 1/2;
+  }
+
+  div.social_media {
+    grid-column: 2/3;
+  }
+
   nav button {
-      display: none;
+    display: none;
   }
 
   ul#primaryNav {
-      display: flex;
-      border-left: 1px solid rgba(0,0,0,0.3);
+    display: flex;
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
   }
 
   li {
-      flex: 1 1 auto;
+    flex: 1 1 auto;
   }
 
   nav ul li a {
-      border-right: 1px solid rgba(0,0,0,0.3);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
   }
 
   main {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
   }
 
   div.hero_div {

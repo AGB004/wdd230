@@ -39,3 +39,10 @@ function toggleMenu() {
 const x = document.getElementById("hamburgerBtn");
 
 x.onclick = toggleMenu;
+
+const today = d.getDay();
+
+if (today < 1 || today > 2) {
+  const banner = document.getElementById('greet');
+  banner.remove();
+}

@@ -20,6 +20,9 @@
   </head>
   <body>
     <header>
+      <div class="meet_wednesday" id="greet">
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+      </div>
       <div class="header_content">
         <div class="header_logo_box">
           <img
@@ -96,16 +99,19 @@
       </div>
       <div class="weather main_div">
         <h2>Weather</h2>
-        <p>Checkout our local weather for Logan</p>
         <a
           href="https://weather.com/weather/today/l/Logan+UT?canonicalCityId=b2efb5ab9b7075448651d03336143a601031a1afaed99987ac27ec1fa0132c6f"
           target="_blank"
           ><img
-            src="https://icon-library.com/images/weather-app-icon/weather-app-icon-18.jpg"
+            src="images/weather_icon.webp"
             alt="weather icon"
             width="80"
             height="80"
         /></a>
+        <span id="degrees"></span>°C
+        <h3>Partly Cloudy</h3>
+        Speed: <span id="windSpeed"></span> km/h
+        Wind Chill: <span id="windChill"></span>
       </div>
       <div class="news main_div">
         <h2>News Releases</h2>
@@ -176,5 +182,6 @@
     </footer>
 
     <script src="script/script.js"></script>
+    <script src="script/windchill.js"></script>
   </body>
 </html>
