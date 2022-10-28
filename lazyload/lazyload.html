@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We introduce the design pattern of progressive loading or 'lazy-loading' of images.">
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Image lazy-loading</title>
+</head>
+<body>
+    <header>
+        <h1>Progressive Loading of Images</h1>
+    </header>
+    <main>
+        <picture>
+            <img src="images/placeholder-300x400.webp" data-src="images/lake-300x400.webp" alt="Nature lake">
+        </picture>
+        <picture>
+            <img src="images/placeholder-300x400.webp" data-src="images/lake2-300x400.webp" alt="Nature lake">
+        </picture>
+        <picture>
+            <img src="images/placeholder-300x400.webp" data-src="images/river-300x400.webp" alt="River">
+        </picture>
+        <picture>
+            <img src="images/placeholder-300x400.webp" data-src="images/water_stream-300x400.webp" alt="Water stream">
+        </picture>
+        <picture>
+            <img src="images/placeholder-300x400.webp" data-src="images/waterfall2-300x400.webp" alt="Waterfall">
+        </picture>
+        <picture>
+            <img src="images/placeholder-300x400.webp" data-src="images/boat_on_lake-300x400.webp" alt="Boat on a lake">
+        </picture>
+    </main>
+    <footer></footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
