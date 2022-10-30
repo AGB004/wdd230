@@ -270,6 +270,14 @@ div.div_discover {
   justify-items: center;
 }
 
+div.discover_box {
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+div.discover_box:nth-child(6) {
+  border-bottom: none;
+}
+
 div.div_discover h2 {
   text-align: center;
 }
