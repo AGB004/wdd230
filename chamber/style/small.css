@@ -254,3 +254,35 @@ span {
   color: #64a7ff;
   font-weight: 700;
 }
+
+/* --- Discovery Page --- */
+main.discover {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+div.div_discover {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+div.div_discover h2 {
+  text-align: center;
+}
+
+div.div_discover p {
+  font-size: large;
+}
+
+div.div_discover img {
+  width: 100%;
+  height: 100%;
+}
+
+div.discover_page_title {
+  text-align: center;
+}

@@ -72,4 +72,13 @@
   div.spotlight3 {
     display: grid;
   }
+
+  div.div_discover {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  div.div_discover img {
+    width: auto;
+    height: auto;
+  }
 }
