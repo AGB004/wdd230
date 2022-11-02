@@ -126,6 +126,10 @@ nav ul.open {
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
+#hamburgerBtn span {
+  color: rgba(85, 85, 85, .90);
+}
+
 div.social_media {
   grid-row: 1/2;
   grid-column: 1/2;
@@ -151,7 +155,10 @@ div.main_div {
   padding: 10px;
   height: auto;
   border: 1px solid rgba(0,0,0,0.3);
+  background-color: #FFF7EB;
   text-align: center;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 5px 5px 5px 2px rgb(85, 85, 85, .75);
 }
 
 main {
@@ -159,7 +166,7 @@ main {
   grid-template-columns: 1fr;
   padding: 20px;
   margin: 0;
-  background-color: #eee;
+  background-color: rgba(255, 245, 112, 0.75);
 }
 
 div.main_div button {
@@ -237,6 +244,20 @@ div.spotlight_div_box {
 
 div.spotlight_div_box img {
   border-radius: .5em;
+}
+
+div.spotlight_div_box p {
+  margin: 0 auto;
+  padding: 5px;
+}
+
+div.spotlight_div {
+  background-color: rgba(255, 245, 112, 0.25);
+  padding: 10px;
+  height: auto;
+  border: 1px solid rgba(0,0,0,0.3);
+  text-align: center;
+  box-shadow: 5px 5px 5px 2px rgb(85, 85, 85, .75);
 }
 
 div.spotlight3 {
