@@ -271,16 +271,14 @@ main.discover {
   grid-template-columns: 1fr;
 }
 
-div.div_discover {
+div.discover_box {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
   padding: 10px;
   margin: 0 auto;
   justify-items: center;
-}
-
-div.discover_box {
+  align-items: center;
   border-bottom: 1px solid rgba(0,0,0,0.5);
 }
 
