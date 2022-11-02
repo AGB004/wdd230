@@ -1,6 +1,6 @@
 body {
   padding: 1em;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -9,8 +9,11 @@ img.logo {
   height: 100px;
 }
 
+header, footer {
+  background-color: #55A0DD;
+}
+
 header {
-  background-color: #a8a8a8b0;
   display: grid;
   grid-template-columns: 1fr;
   padding: 20px;
@@ -22,7 +25,8 @@ header {
   text-align: center;
   margin-bottom: 10px;
   font-size: large;
-  background-color: #eee;
+  background-color: rgba(85, 85, 85, .75);
+  color: rgb(255, 255, 255, .90);
 }
 
 div.header_content {
@@ -33,6 +37,8 @@ div.header_content {
 
 div.header_logo_box {
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 div.header_logo_box img.logo {
@@ -41,7 +47,7 @@ div.header_logo_box img.logo {
 
 div.site_name {
   grid-auto-flow: column;
-  grid-row: 2/3;
+  grid-row: 1/2;
   padding: 5px;
 }
 div.site_name h1, div.site_name h2 {
@@ -230,7 +236,6 @@ img {
 }
 
 footer {
-  background-color: #a8a8a8b0;
   display: grid;
   text-align: center;
   padding: 20px;
@@ -247,11 +252,16 @@ div.footer_right a {
 
 .footer_bottom {
   background-color: rgba(85, 85, 85, .75);
+  color: rgb(255, 255, 255, .75);
   padding: 10px;
 }
 
+.weather span {
+  color: rgb(0, 0, 0, .75);
+}
+
 span {
-  color: #64a7ff;
+  color: #FFA500;
   font-weight: 700;
 }
 
