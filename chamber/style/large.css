@@ -71,6 +71,7 @@
 
   div.spotlight3 {
     display: grid;
+    justify-items: center;
   }
 
   div.div_discover {

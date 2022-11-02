@@ -1,3 +1,11 @@
+h1, h2, h3, h4, h5, h6, button, li, address {
+  font-family: "Averia Serif Libre", "Kalam", cursive;
+}
+
+p, span {
+  font-family: "Inter", "Lato", sans-serif;
+}
+
 body {
   padding: 1em;
   max-width: 1400px;
@@ -227,6 +235,10 @@ div.spotlight_div_box {
   gap: 10px;
 }
 
+div.spotlight_div_box img {
+  border-radius: .5em;
+}
+
 div.spotlight3 {
   display: none;
 }
@@ -248,6 +260,10 @@ footer h1, footer h2 {
 
 div.footer_right a {
  text-decoration: none;
+}
+
+footer address {
+  font-size: large;
 }
 
 .footer_bottom {
