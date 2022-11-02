@@ -30,7 +30,7 @@
 
   main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 8px;
+    gap: 12px;
   }
 
   div.hero_div {
