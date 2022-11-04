@@ -26,11 +26,16 @@
 
   nav ul li a {
     border-right: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: larger;
   }
 
   main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 12px;
+  }
+
+  main.form {
+    grid-template-columns: 1fr 1fr;
   }
 
   div.hero_div {
@@ -82,4 +87,8 @@
     width: auto;
     height: auto;
   }
+
+  form label.sbs {
+    padding: .4rem 0;
+}
 }

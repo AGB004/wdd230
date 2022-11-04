@@ -1,5 +1,4 @@
 @media only screen and (min-width: 35.5em) {
-  
   div.header_content {
     grid-template-columns: 1fr 1fr;
   }
@@ -28,7 +27,7 @@
   .hero_welcome {
     font-size: 25px;
   }
-  
+
   .hero_button {
     bottom: 1em;
     right: 1em;
@@ -56,7 +55,7 @@
   }
 
   .news_box div {
-    border: 1px solid rgba(0,0,0,0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
   }
 
   div.join {
