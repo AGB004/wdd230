@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-color: dodgerblue;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+  }
+
+section {
+    background-color: white;
+    border-radius: .5em;
+}
+
+img {
+    max-width: 95%;
+    border-radius: .5em;
+}
+
+p {
+    background-color: rgba(128, 128, 128, 0.5);
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
