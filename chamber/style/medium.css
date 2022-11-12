@@ -98,4 +98,13 @@
   p.footer_bottom {
     grid-column: 1/3;
   }
+
+  .directoryList section {
+    flex-direction: row;
+  }
+
+  .list section img {
+		display: block;
+    max-width: 50%;
+	}
 }

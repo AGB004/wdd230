@@ -39,15 +39,15 @@ function toggleMenu() {
 }
 
 const x = document.getElementById("hamburgerBtn");
-
 x.onclick = toggleMenu;
 
+// ----- Chamber Meeting ------ //
 const today = d.getDay();
 
-if (today < 1 || today > 2) {
-  const banner = document.getElementById('greet');
-  banner.remove();
-}
+// if (today < 1 || today > 2) {
+//   const banner = document.getElementById('greet');
+//   banner.remove();
+// }
 
 // ----- Lazy Load ------ //
 let imagesToLoad = document.querySelectorAll("img[data-src]");
@@ -88,7 +88,7 @@ else {
 // ----- DIRECTORY ------ //
 const cards = document.querySelector('.cards');
 
-fetch('wdd230/chamber/json/data.json')
+fetch('json/data.json')
   .then(function (response) {
     return response.json();
   })
@@ -114,6 +114,7 @@ function displayBusinesses(business) {
 
   image.setAttribute('src', business.image);
   image.setAttribute('alt', `${business.name}`);
+  image.setAttribute('class', "directoryImg");
   image.setAttribute('loading', 'lazy');
 
   card.appendChild(h2);
@@ -122,20 +123,34 @@ function displayBusinesses(business) {
   card.appendChild(phoneNumber);
   card.appendChild(website);
 
-  const grid = document.querySelector('.grid');
-  grid.appendChild(card);
+  const grid = document.querySelector('.directoryGrid');
+  if (grid) grid.appendChild(card);
 }
+
+// async function getDirectory() {
+//   const response = await fetch("./json/data.json");
+
+//   if (response.ok) {
+//     let data = await response.json();
+//     console.log(data);
+//     displayDirectory(data);
+//   }
+// }
 
 const gridButton = document.querySelector('#grid');
 const listButton = document.querySelector('#list');
 const arrange = document.querySelector('#businesses');
 
-gridButton.addEventListener('click', () => {
-  arrange.classList.add('grid');
-  arrange.classList.remove('list');
-});
+if (gridButton) {
+  gridButton.addEventListener('click', () => {
+    arrange.classList.add('directoryGrid');
+    arrange.classList.remove('directoryList');
+  });
+}
 
-listButton.addEventListener('click', () => {
-  display.classList.add('list');
-  display.classList.remove('grid');
-});
+if (listButton) {
+  listButton.addEventListener('click', () => {
+    arrange.classList.add('directoryList');
+    arrange.classList.remove('directoryGrid');
+  });
+}

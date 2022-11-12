@@ -424,41 +424,63 @@ form label input:required:valid {
 }
 
 /* --- Directory Page --- */
-.grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	align-items: center;
+main.directory {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
 }
 
-.list {
-	display: flex;
-	flex-direction: column;
-}
-
-.list section {
-	display: flex;
-	align-items: center;
-}
-
-.grid section {
-	flex-direction: column;
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #bbb;
 	text-align: center;
 }
 
-.grid section > * {
-	margin: 0.1rem;
+.menu button {
+	padding: 1rem;
 }
 
-.list section {
-	flex-direction: row;
-	justify-content: left;
+.directoryGrid section, .directoryList section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #ccc;
+  margin: 0.75rem;
 }
 
-.list section > * {
-	margin: 0 1rem;
-	text-align: left;
+.directoryGrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
-.list section img {
+.directoryGrid section {
+  display: flex;
+	flex-direction: column;
+	text-align: center;
+  align-items: center;
+}
+
+.directoryGrid section > * {
+	margin: 0.5rem;
+}
+
+.directoryList {
+	display: flex;
+	flex-direction: column;
+}
+
+.directoryList section {
+	display: flex;
+	align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.directoryList section img {
 	display: none; /* smaller viewports only */
+}
+
+.directoryImg {
+  width: auto;
 }

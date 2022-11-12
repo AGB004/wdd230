@@ -5,7 +5,7 @@
             "address": "19 Main St, Logan, UT 84321",
             "phoneNumber": "435-752-3155",
             "webURL": "http://www.thebluebirdrestaurant.com/",
-            "image": "#",
+            "image": "images/directory_webp/Bluebird-300x224.webp",
             "membership": "Gold"
         },
         {
@@ -13,7 +13,7 @@
             "address": "295 W 300 S, Logan, UT 84321",
             "phoneNumber": "435-752-7923",
             "webURL": "http://www.logangreenhouse.com/",
-            "image": "#",
+            "image": "images/directory_webp/the_greenhouse-300x200.webp",
             "membership": "Gold"
         },
         {
@@ -21,7 +21,7 @@
             "address": "1655 N 200 E, North Logan, UT 84341",
             "phoneNumber": "435-753-7500",
             "webURL": "http://www.sportsacademy.com/",
-            "image": "#",
+            "image": "images/directory_webp/Sports_Academy-300x225.webp",
             "membership": "Gold"
         },
         {
@@ -29,7 +29,7 @@
             "address": "43 S Main St, Logan, UT 84321",
             "phoneNumber": "435-752-0026",
             "webURL": "http://www.cachearts.org/",
-            "image": "#",
+            "image": "images/directory_webp/Ellen_Eccle_Theatre-300x199.webp",
             "membership": "Silver"
         },
         {
@@ -37,23 +37,15 @@
             "address": "29 W Center St, Logan, UT 84321",
             "phoneNumber": "435-295-4531",
             "webURL": "https://www.the-crepery.com/",
-            "image": "#",
+            "image": "images/directory_webp/crepery-300x300.webp",
             "membership": "Bronze"
-        },
-        {
-            "name": "KUBEX Fitness",
-            "address": "920 N 200 W, Logan, UT 84321",
-            "phoneNumber": "435-753-9595",
-            "webURL": "https://kubexfitness.com/",
-            "image": "#",
-            "membership": "Silver"
         },
         {
             "name": "Common Ground Outdoor Adventures",
             "address": "335 N 100 E, Logan, UT 84321",
             "phoneNumber": "435-713-0288",
             "webURL": "http://www.cgadventures.org/",
-            "image": "#",
+            "image": "images/directory_webp/Outdoor_Adventures-300x300.webp",
             "membership": "NP"
         },
         {
@@ -61,7 +53,7 @@
             "address": "160 Main St, Logan, UT 84321",
             "phoneNumber": "435-554-8631",
             "webURL": "http://cachevolunteercenter.org/",
-            "image": "#",
+            "image": "images/directory_webp/Volunteer_Center-300x300.webp",
             "membership": "NP"
         },
         {
@@ -69,7 +61,7 @@
             "address": "255 E 1770 N, North Logan, UT 84341",
             "phoneNumber": "435-792-4000",
             "webURL": "http://www.cachevalleyfunpark.com/",
-            "image": "#",
+            "image": "images/directory_webp/Fun_Park-300x300.webp",
             "membership": "Silver"
         },
         {
@@ -77,7 +69,7 @@
             "address": "419 W 700 S, Logan, UT 84323",
             "phoneNumber": "435-750-9894",
             "webURL": "https://zootah.org/",
-            "image": "#",
+            "image": "images/directory_webp/zootahatwillowpark-300x300.webp",
             "membership": "Bronze"
         }
     ]
