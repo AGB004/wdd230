@@ -443,6 +443,12 @@ main.directory {
 	padding: 1rem;
 }
 
+.directoryGrid, .directoryList {
+  border: 1px solid rgba(0,0,0,0.3);
+  background-color: #FFF7EB;
+  box-shadow: 5px 5px 5px 2px rgb(85 85 85 / 75%);
+}
+
 .directoryGrid section, .directoryList section {
 	border: 1px solid rgba(0,0,0,0.3);
 	padding: 0.5rem;
