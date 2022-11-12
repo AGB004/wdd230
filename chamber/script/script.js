@@ -88,7 +88,7 @@ else {
 // ----- DIRECTORY ------ //
 const cards = document.querySelector('.cards');
 
-fetch('chamber/json/data.json')
+fetch('wdd230/chamber/json/data.json')
   .then(function (response) {
     return response.json();
   })
