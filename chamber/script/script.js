@@ -44,10 +44,10 @@ x.onclick = toggleMenu;
 // ----- Chamber Meeting ------ //
 const today = d.getDay();
 
-// if (today < 1 || today > 2) {
-//   const banner = document.getElementById('greet');
-//   banner.remove();
-// }
+if (today < 1 || today > 2) {
+  const banner = document.getElementById('greet');
+  banner.remove();
+}
 
 // ----- Lazy Load ------ //
 let imagesToLoad = document.querySelectorAll("img[data-src]");
