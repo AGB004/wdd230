@@ -1,84 +1,84 @@
 {
     "businesses": [
         {
-            "name": "#",
-            "address": "#",
-            "phoneNumber": "999-999-9999",
-            "webURL": "#",
+            "name": "The Bluebird Restaurant",
+            "address": "19 Main St, Logan, UT 84321",
+            "phoneNumber": "435-752-3155",
+            "webURL": "http://www.thebluebirdrestaurant.com/",
             "image": "#",
-            "membership": "#"
+            "membership": "Gold"
         },
         {
-            "name": "#",
-            "address": "#",
-            "phoneNumber": "999-999-9999",
-            "webURL": "#",
+            "name": "The Green House Nursery Inc.",
+            "address": "295 W 300 S, Logan, UT 84321",
+            "phoneNumber": "435-752-7923",
+            "webURL": "http://www.logangreenhouse.com/",
             "image": "#",
-            "membership": "#"
+            "membership": "Gold"
         },
         {
-            "name": "#",
-            "address": "#",
-            "phoneNumber": "999-999-9999",
-            "webURL": "#",
+            "name": "Sports Academy & Racquet Club",
+            "address": "1655 N 200 E, North Logan, UT 84341",
+            "phoneNumber": "435-753-7500",
+            "webURL": "http://www.sportsacademy.com/",
             "image": "#",
-            "membership": "#"
+            "membership": "Gold"
         },
         {
-            "name": "#",
-            "address": "#",
-            "phoneNumber": "999-999-9999",
-            "webURL": "#",
+            "name": "Ellen Eccles Theatre",
+            "address": "43 S Main St, Logan, UT 84321",
+            "phoneNumber": "435-752-0026",
+            "webURL": "http://www.cachearts.org/",
             "image": "#",
-            "membership": "#"
+            "membership": "Silver"
         },
         {
-            "name": "#",
-            "address": "#",
-            "phoneNumber": "999-999-9999",
-            "webURL": "#",
+            "name": "The Crêpery Logan",
+            "address": "29 W Center St, Logan, UT 84321",
+            "phoneNumber": "435-295-4531",
+            "webURL": "https://www.the-crepery.com/",
             "image": "#",
-            "membership": "#"
+            "membership": "Bronze"
         },
         {
-            "name": "#",
-            "address": "#",
-            "phoneNumber": "999-999-9999",
-            "webURL": "#",
+            "name": "KUBEX Fitness",
+            "address": "920 N 200 W, Logan, UT 84321",
+            "phoneNumber": "435-753-9595",
+            "webURL": "https://kubexfitness.com/",
             "image": "#",
-            "membership": "#"
+            "membership": "Silver"
         },
         {
-            "name": "#",
-            "address": "#",
-            "phoneNumber": "999-999-9999",
-            "webURL": "#",
+            "name": "Common Ground Outdoor Adventures",
+            "address": "335 N 100 E, Logan, UT 84321",
+            "phoneNumber": "435-713-0288",
+            "webURL": "http://www.cgadventures.org/",
             "image": "#",
-            "membership": "#"
+            "membership": "NP"
         },
         {
-            "name": "#",
-            "address": "#",
-            "phoneNumber": "999-999-9999",
-            "webURL": "#",
+            "name": "Cache Valley Volunteer Center",
+            "address": "160 Main St, Logan, UT 84321",
+            "phoneNumber": "435-554-8631",
+            "webURL": "http://cachevolunteercenter.org/",
             "image": "#",
-            "membership": "#"
+            "membership": "NP"
         },
         {
-            "name": "#",
-            "address": "#",
-            "phoneNumber": "999-999-9999",
-            "webURL": "#",
+            "name": "Cache Valley Fun Park",
+            "address": "255 E 1770 N, North Logan, UT 84341",
+            "phoneNumber": "435-792-4000",
+            "webURL": "http://www.cachevalleyfunpark.com/",
             "image": "#",
-            "membership": "#"
+            "membership": "Silver"
         },
         {
-            "name": "#",
-            "address": "#",
-            "phoneNumber": "999-999-9999",
-            "webURL": "#",
+            "name": "Zootah",
+            "address": "419 W 700 S, Logan, UT 84323",
+            "phoneNumber": "435-750-9894",
+            "webURL": "https://zootah.org/",
             "image": "#",
-            "membership": "#"
+            "membership": "Bronze"
         }
     ]
 }
