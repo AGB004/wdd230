@@ -1,4 +1,5 @@
 // ----- Chamber Meeting ------ //
+const d = new Date();
 const today = d.getDay();
 const banner = document.querySelector('#greet');
 

@@ -22,11 +22,11 @@ const months = [
 	"November",
 	"December"
 ];
-const d = new Date();
-const dayName = daynames[d.getDay()];
-const monthName = months[d.getMonth()];
-const year = d.getFullYear();
-const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
+const date = new Date();
+const dayName = daynames[date.getDay()];
+const monthName = months[date.getMonth()];
+const year = date.getFullYear();
+const fulldate = `${dayName}, ${date.getDate()} ${monthName} ${year}`;
 
 document.getElementById("current_date").textContent = fulldate;
 document.getElementById('year').textContent = new Date().getFullYear();
@@ -76,6 +76,20 @@ else {
     loadImages(img);
   });
 };
+
+// ----- Last Visit ------ //
+let dateLast = localStorage.getItem('lastVisitedDate');
+dateLast = Date.parse(dateLast);
+const milSecDaySec = (date - dateLast)/86400000; // 86400 sec per day converted to milsecs
+const numberDays = document.querySelector("#lastVisited");
+
+if (numberDays) {
+  if (!milSecDaySec) {
+    numberDays.textContent = 0;
+  } else {
+    numberDays.textContent = milSecDaySec.toFixed(0);
+  }
+}
 
 // ----- DIRECTORY ------ //
 const cards = document.querySelector('.cards');

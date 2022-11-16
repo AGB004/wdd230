@@ -317,6 +317,20 @@ span {
 main.discover {
   display: grid;
   grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.visit {
+  background-color: #FFF7EB;
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid rgba(0,0,0,0.3);
+  box-shadow: 5px 5px 5px 2px rgb(85, 85, 85, .75);
+  border-radius: .5em;
+}
+
+.visit span {
+  color: black;
 }
 
 div.discover_box {
@@ -447,10 +461,10 @@ main.directory {
 
 .menu {
 	margin: .5rem auto;
-	border: 1px solid rgba(0,0,0,0.3);
 	padding: 0.5rem;
 	background-color: #FFF7EB;
 	text-align: center;
+  border: 1px solid rgba(0,0,0,0.3);
   box-shadow: 5px 5px 5px 2px rgb(85, 85, 85, .75);
 }
 
