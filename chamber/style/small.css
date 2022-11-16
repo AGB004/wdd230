@@ -374,10 +374,21 @@ div.discover_page_title {
 
 main.form {
   display: grid;
+  gap: 20px;
+}
+
+.form form {
+  background-color: #FFF7EB;
+  padding: 20px;
+  border: 1px solid rgba(0,0,0,0.3);
+  box-shadow: 5px 5px 5px 2px rgb(85, 85, 85, .75);
 }
 
 .div_form {
-  padding: 20px;
+  padding: 30px;
+  background-color: #FFF7EB;
+  border: 1px solid rgba(0,0,0,0.3);
+  box-shadow: 5px 5px 5px 2px rgb(85, 85, 85, .75);
 }
 
 main.thanks {
@@ -388,23 +399,30 @@ main.thanks {
   height: 400px;
 }
 
+main.thanks p {
+  font-size: 1.25rem;
+}
+
 form fieldset {
   margin: 2rem 0;
-  border: 1px solid #445ba9;
   border-radius: 10px;
   padding: .5rem 2%;
+  background-color: rgba(255, 245, 112, 0.25);
+  border: 1px solid rgba(0,0,0,0.3);
+  box-shadow: 5px 5px 5px 2px rgb(85, 85, 85, .75);
 }
 
 form legend {
   color: #445ba9;
   margin: 0 1rem;
   padding: 0 .5rem;
+  font-size: 1.5rem;
 }
 
 form label, form div {
   display: block;
   padding-top: 1rem;
-  color: #9c2c13;
+  color: black;
   font-size: .8rem;
 }
 
@@ -415,7 +433,7 @@ form label input, form label select {
   border-radius: 4px;
   padding: .75rem;
   color: #555;
-  width: 100%;
+  width: 90%;
   max-width: 20rem;
   background-color: rgba(0,0,0,0.1);
 }
@@ -432,13 +450,21 @@ form label.sbs input {
 
 form input.submitBtn {
   border: none;
-  background-color: #9c2c13;
-  color: white;
+  background-color: rgb(245, 245, 245);;
+  color: black;
   border-radius: 1rem;
   padding: .75rem 1.5rem;
   margin: 0 0 2rem 2%;
   width: 96%;
   max-width: 20rem;
+  font-size: 1.25rem;
+  border: 1px solid rgba(0,0,0,0.3);
+  box-shadow: 5px 5px 5px 2px rgb(85, 85, 85, .75);
+}
+
+form input.submitBtn:hover {
+  background-color: white;
+  border: 1px solid rgba(0,0,0,0.5);
 }
 
 form label input:required {
