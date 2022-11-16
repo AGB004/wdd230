@@ -288,6 +288,10 @@ footer h1, footer h2 {
 
 div.footer_right a {
  text-decoration: none;
+ background-color: rgba(255, 255, 255, 0.75); 
+ padding: 8px; 
+ border-radius: 5px; 
+ border: 2px solid rgba(85, 85, 85, .75);
 }
 
 footer address {
