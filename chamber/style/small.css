@@ -480,6 +480,7 @@ main.directory {
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
+  justify-content: center;
 }
 .directory h1 {
   margin: .5rem auto;
@@ -529,7 +530,6 @@ main.directory {
 
 .directoryGrid {
 	display: grid;
-  gap: ;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
