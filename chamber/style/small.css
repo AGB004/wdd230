@@ -529,6 +529,7 @@ main.directory {
 
 .directoryGrid {
 	display: grid;
+  gap: ;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
@@ -560,7 +561,7 @@ main.directory {
 }
 
 .directoryImg {
-  width: auto;
+  max-width: 95%;
   border: 1px solid rgba(0,0,0,0.3);
   box-shadow: 5px 5px 5px 2px rgb(85, 85, 85, .75);
 }
