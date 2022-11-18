@@ -59,7 +59,7 @@ function  displayResults(data) {
   // temp can't got above 50°F and 10°C / wind speed must be greater than 3mph and 4.83kmph
   if (temperature <= 50 && speed >= 3) { 
     const fahrenheit = 35.74 + 0.6215 * temperature - 35.75 * (speed ** 0.16) + 0.4275 * temperature * (speed ** 0.16);
-    windChill.innerHTML = `${fahrenheit.toFixed(2)}&deg;F`;
+    windChill.innerHTML = `${fahrenheit.toFixed(0)}&deg;F`;
   } else {
     windChill.innerHTML = 'N/A';
   }
