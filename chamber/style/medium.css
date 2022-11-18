@@ -5,6 +5,7 @@
 
   div.header_logo_box {
     display: flex;
+    justify-content: space-around;
   }
 
   div.header_right_content {
@@ -75,7 +76,7 @@
     display: flex;
     grid-column: 1/2;
     align-items: center;
-    justify-content: right;
+    justify-content: space-evenly;
   }
 
   div.footer_logo_box {
@@ -89,6 +90,13 @@
 
   div.footer_right {
     grid-column: 2/3;
+    flex-direction: row;
+  }
+
+  body.home_page footer div.footer_right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
   }
 
   p.footer_bottom {

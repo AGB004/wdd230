@@ -286,6 +286,13 @@ footer h1, footer h2 {
   margin: 0;
 }
 
+div.footer_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 div.footer_right a {
  text-decoration: none;
  background-color: rgba(255, 255, 255, 0.75); 

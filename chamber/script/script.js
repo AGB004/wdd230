@@ -78,6 +78,22 @@ else {
 };
 
 // ----- DIRECTORY ------ //
+
+// async function getDirectory() {
+//   try {
+//     const response = await fetch("json/data.json");
+//     if (response.ok) {
+//       let data = await response.json();
+//       console.log(data);
+//       displayBusinesses(data);
+//     } else {
+//       console.log(`Response not OK ${await response.text()}`);
+//     }
+//   } catch (error) {
+//     console.log(`Error: ${error.message}`);
+//   }
+// }
+
 const cards = document.querySelector('.cards');
 
 fetch('json/data.json')
@@ -105,7 +121,7 @@ function displayBusinesses(business) {
   website.href = business.webURL;
 
   image.setAttribute('src', business.image);
-  image.setAttribute('alt', `${business.name}`);
+  image.setAttribute('alt', `Image of ${business.name}`);
   image.setAttribute('class', "directoryImg");
   image.setAttribute('loading', 'lazy');
 
@@ -116,19 +132,12 @@ function displayBusinesses(business) {
   card.appendChild(website);
 
   const grid = document.querySelector('.directoryGrid');
-  if (grid) grid.appendChild(card);
+  grid.appendChild(card);
+
+  
 }
 
-// async function getDirectory() {
-//   const response = await fetch("./json/data.json");
-
-//   if (response.ok) {
-//     let data = await response.json();
-//     console.log(data);
-//     displayDirectory(data);
-//   }
-// }
-
+// Grid & List Layout Buttons
 const gridButton = document.querySelector('#grid');
 const listButton = document.querySelector('#list');
 const arrange = document.querySelector('#businesses');

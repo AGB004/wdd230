@@ -51,13 +51,14 @@ function  displayResults(data) {
   humidity.innerHTML = currentHum;
 
   // Display wind speed
+  let temperature = Number(data.main.temp.toFixed(0));
   let speed = Number(data.wind.speed.toFixed(0));
   windSpeed.innerHTML = `${speed} mph`;
 
   // Display wind chill -->
   // temp can't got above 50°F and 10°C / wind speed must be greater than 3mph and 4.83kmph
-  if (currentTemp <= 50 && speed >= 3) { 
-    const fahrenheit = 35.74 + 0.6215 * currentTemp - 35.75 * (speed ** 0.16) + 0.4275 * currentTemp * (speed ** 0.16);
+  if (temperature <= 50 && speed >= 3) { 
+    const fahrenheit = 35.74 + 0.6215 * temperature - 35.75 * (speed ** 0.16) + 0.4275 * temperature * (speed ** 0.16);
     windChill.innerHTML = `${fahrenheit.toFixed(2)}&deg;F`;
   } else {
     windChill.innerHTML = 'N/A';
