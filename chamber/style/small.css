@@ -179,6 +179,7 @@ div.main_div button {
   padding: 10px 8px 10px 10px;;
   border-radius: .5em;
   box-shadow: 5px 5px 5px 2px rgb(85, 85, 85, .75);
+  font-size: 1.1rem;
 }
 
 div.main_div button:hover {
@@ -351,7 +352,7 @@ div.discover_box {
   border-bottom: 1px solid rgba(0,0,0,0.5);
 }
 
-div.discover_box:nth-child(6) {
+div.discover_box:nth-child(7) {
   border-bottom: none;
 }
 
