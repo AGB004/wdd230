@@ -94,5 +94,19 @@
 
   form label.sbs {
     padding: .4rem 0;
-}
+  }
+
+  .contact_leader {
+    grid-column: 1/2;
+  }
+
+  .form_container {
+    display: flex;
+    grid-row: 1/3;
+  }
+
+  .hours_div {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
 }

@@ -391,7 +391,7 @@ main.form {
   gap: 20px;
 }
 
-.form form {
+.form form, .contact_form form {
   background-color: #FFF7EB;
   padding: 20px;
   border: 1px solid rgba(0,0,0,0.3);
@@ -579,4 +579,44 @@ main.directory {
   max-height: 100%;
   border: 1px solid rgba(0,0,0,0.3);
   box-shadow: 5px 5px 5px 2px rgb(85, 85, 85, .75);
+}
+
+/* --- Contact Page --- */
+
+.contact_form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.div_contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact_leader {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.contact_leader img {
+  border: 1px solid rgba(0,0,0,0.3);
+  box-shadow: 5px 5px 5px 2px rgb(85, 85, 85, .75);
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hours_div {
+  display: block;
+  background-color: #FFF7EB;
+  padding: 20px;
+  border: 1px solid rgba(0,0,0,0.3);
+  box-shadow: 5px 5px 5px 2px rgb(85, 85, 85, .75);
+  text-align: center;
 }
